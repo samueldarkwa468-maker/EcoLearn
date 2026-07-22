@@ -1,0 +1,23 @@
+ECOLEARN CLOUDFLARE PAGES SETTINGS
+==================================
+
+Framework preset: None
+Production branch: main
+Root directory: /
+Build command: LEAVE EMPTY
+Build output directory: public
+Environment variables: NONE REQUIRED
+
+IMPORTANT
+---------
+The GitHub repository's first page must show these items:
+
+public/
+functions/
+.gitignore
+README.md
+server.js
+start-local.bat
+
+Do not place the whole project inside another folder unless you also set that
+folder as Cloudflare's Root directory.
